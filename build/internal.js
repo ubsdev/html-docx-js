@@ -106,8 +106,8 @@ module.exports = {
       switch (documentOptions.orientation) {
         case 'landscape':
           return {
-            height: pageHeight,
-            width: pageWidth,
+            height: pageWidth,
+            width: pageHeight,
             orient: 'landscape'
           };
         default:
